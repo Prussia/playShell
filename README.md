@@ -29,10 +29,10 @@ Linux Shell Script Learning
 
 5. [Systemd](https://coreos.com/os/docs/latest/getting-started-with-systemd.html)
 
-   systemd is an init system that provides many powerful features for starting, stopping, and managing processes. Within Container Linux, you will almost exclusively use systemd to manage the lifecycle of your Docker containers.
+   Description: systemd is an init system that provides many powerful features for starting, stopping, and managing processes. Within Container Linux, you will almost exclusively use systemd to manage the lifecycle of your Docker containers.
 
-   /etc/systemd/system
-   
+   Path:  /etc/systemd/system
+```   
 [Unit]
 Description=MyApp
 After=docker.service
@@ -47,6 +47,7 @@ ExecStart=/usr/bin/docker run --name busybox1 busybox /bin/sh -c "trap 'exit 0' 
 
 [Install]
 WantedBy=multi-user.target
+```
 
 6.
 
