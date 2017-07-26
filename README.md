@@ -27,7 +27,8 @@ Linux Shell Script Learning
                     |___________ directory's owner
     ```
 
-5.
+5. [Systemd](https://coreos.com/os/docs/latest/getting-started-with-systemd.html)
+systemd is an init system that provides many powerful features for starting, stopping, and managing processes. Within Container Linux, you will almost exclusively use systemd to manage the lifecycle of your Docker containers.
 
 6.
 
