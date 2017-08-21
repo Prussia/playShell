@@ -54,7 +54,6 @@ The basic syntax is as follows:
 ```
 find /path/to/dir -name "filename"
 find /nas/projects -name "*.h"
-
 ```
 
 7.
