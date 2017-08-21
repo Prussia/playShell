@@ -49,7 +49,13 @@ ExecStart=/usr/bin/docker run --name busybox1 busybox /bin/sh -c "trap 'exit 0' 
 WantedBy=multi-user.target
 ```
 
-6.
+6. find command in bash
+The basic syntax is as follows:
+```
+find /path/to/dir -name "filename"
+find /nas/projects -name "*.h"
+
+```
 
 7.
 
